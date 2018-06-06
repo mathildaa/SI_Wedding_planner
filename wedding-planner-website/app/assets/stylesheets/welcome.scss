@@ -1,0 +1,86 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.pic{
+	height: 740px;
+	width: 100%;
+	z-index:-1;
+	 position: absolute;
+  
+   
+}
+
+.pic-aboutus{
+	width: 100%;
+}
+.dugme{
+	z-index:100;
+	margin-top:6px;
+	background-color:#83767B;
+	border-color:#83767B;
+	width: 242px;
+}
+
+.dugme:hover{
+	background-color:#761634;
+	border-color:#761634;
+}
+
+.buttons{
+	margin-left: 42%;
+	margin-top: 400px;
+	display: inline-grid;
+}
+
+#podnozje{
+	background-color:  white;
+	color: #83767B;	
+    text-align: center;	
+	width: 100%; 
+	margin-top: 170px;
+}
+
+.nav{
+	color:#83767B;
+}
+
+.page-header{
+	color:#761634;
+}
+
+.page-podheader{
+	color:#761634;
+}
+
+.tijelo{
+	background-color:#af9e85l;
+}
+
+.aboutus-text{
+	color:#9c886b;
+	font-family: URW Chancery L, cursive;
+	font-size: 23px;
+}
+
+.contact-text{
+	color:#9c886b;
+	font-size: 19px;
+}
+.vdivide{
+	margin-left:3px;
+}
+
+.img-circle{
+	text-align: center;
+}
+
+.img-circle img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+  	object-fit: cover;
+}
+
+.circle{
+	border-style: none;
+}

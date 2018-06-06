@@ -1,0 +1,27 @@
+@import "bootstrap";
+
+.nav-link{
+	color:#83767B
+} 
+
+.nav-link:hover{
+	color:#761634;
+}
+
+body{
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+.page-item.active .page-link{
+	background-color:#83767B;
+	border-color:#83767B;
+
+}
+
+.page-link{
+	color:#83767B;
+}
+
+.page-link:hover{
+	color:#761634;
+}

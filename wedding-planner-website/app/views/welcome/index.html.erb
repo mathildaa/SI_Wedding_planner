@@ -1,0 +1,27 @@
+<div class="naslovna">
+
+	<%= image_tag("wedding.jpg", :alt => "wedding photo",  :class => "pic") %>
+
+	<div class="buttons">
+
+		<a href="/welcome/weddingplanner">
+		<button type="button" class="btn btn-secondary btn-lg dugme">Planer vjencanja</button>
+		</a>
+
+		<a href="/welcome/weddingservices">
+		<button type="button" class="btn btn-secondary btn-lg dugme">Usluge vjencanja</button>
+         </a>
+
+        <% if !signed_in? %> 
+			<a href="<%=new_session_path%>">
+			<button type="button" class="btn btn-secondary btn-lg dugme">Moj racun</button>
+		    </a>
+	    <% end %>
+		
+	</div>
+	
+</div>
+
+<% if !signed_in? %> 
+<div id="podnozje"><b >Copyright &copy; EFSA 2017/2018.</b></div>
+<% end %>

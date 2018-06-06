@@ -1,0 +1,23 @@
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="/welcome/index" >POCETNA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/welcome/aboutus" >O NAMA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/gallery_items/index" >GALERIJA</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/welcome/contact" >KONTAKT</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="/posts/index">BLOG</a>
+  </li>
+
+   <% if signed_in? %>
+         
+          <li class="nav-item"><%= link_to "ODJAVA", session_path(current_user), class: "nav-link", method: "delete" %></li>
+  <% end %>
+</ul>
+

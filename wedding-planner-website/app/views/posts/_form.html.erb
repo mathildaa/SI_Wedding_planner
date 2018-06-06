@@ -1,0 +1,33 @@
+<div class="col-md-12 col-md-offset-4">
+<div class="registracija-forma">
+
+    <%= form_for @post,url: posts_path do |u| %>
+          
+            <div class="form-group page-podheader-input">
+            <%= u.label :title,"Naslov blog posta:"%><br/>
+            <%= u.text_field :title, class:"form-control",placeholder: 'Unesite naziv post-a' %><br/>
+            </div>
+
+            <div class="form-group page-podheader-input">
+            <%= u.label :image_url,"Link slike:"%><br/>
+            <%= u.text_field :image_url, class:"form-control", placeholder: 'Preporucuje se slika velicine 1000px x 720px'%><br/>
+            </div>
+
+
+            <div class="form-group page-podheader-input">
+            <%= u.label :description,"Opis blog posta:"%><br/>
+            <%= u.text_area:description, class:"form-control", placeholder:'Unesite tekst minimalne duzine 1000 karaktera' %><br/>
+            </div>
+
+
+          
+
+          <p>
+            <input style="width: 100%;" type="submit" class="btn btn-default dugme-post" value="Dodaj post">
+            
+          </p>
+          
+    <% end %>
+
+</div>
+</div>

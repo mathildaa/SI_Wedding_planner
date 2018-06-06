@@ -1,0 +1,42 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.dugme-post{
+	background-color:#83767B;
+	border-color:#83767B;
+	color:white;
+}
+
+.dugme-post:hover{
+	background-color:#761634;
+	border-color:#761634;
+}
+
+.blog-text{
+	color:#9c886b;
+	font-family: URW Chancery L, cursive;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.page-podheader-input{
+	color:#761634;
+	font-weight: bold;
+}
+
+.dugme-delete{
+
+	background-color:#83767B;
+	border-color:#83767B;
+	width: 113px;
+	border-radius: 3px;
+	padding: 6px;
+	margin-left: 5%;
+	}
+
+.dugme-delete:hover{
+	background-color:#761634;
+	border-color:#761634;
+}
+

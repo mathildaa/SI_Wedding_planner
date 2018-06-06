@@ -1,0 +1,43 @@
+// Place all the styles related to the GalleryItems controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pager-justify{
+	display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.img-placeholder{
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.img-popover{
+  max-width: 100px;
+}
+
+
+.card-title{
+	color:#9c886b;
+	font-family: URW Chancery L, cursive;
+	font-size: 23px;
+	font-weight: bold; 
+}
+
+.page-item.active .page-link{
+	background-color:#83767B;
+	border-color:#83767B;
+
+}
+
+.zoom{
+  transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.08); }

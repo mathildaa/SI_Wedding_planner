@@ -1,0 +1,10 @@
+<h2 class="naslov"> Registracija </h2> <br>
+  <% if flash[:error] %>
+  <% flash[:error].each do |o| %>
+      <div class="alert alert-danger">
+         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <%= o %>
+    </div>
+  <% end %>
+ <% end %>
+<%= render 'form'%>

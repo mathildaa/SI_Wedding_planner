@@ -1,0 +1,28 @@
+// Place all the styles related to the Sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.naslov{
+	margin-left: 34%;
+}
+
+.registracija-forma{
+background-color: #f6f6f6;
+padding: 15px;
+border-style: solid;
+border-width: 1px;
+border-color: #ddd;
+border-radius: 3px;
+margin-bottom: 15px;
+}
+
+.dugme-post{
+	background-color:#83767B;
+	border-color:#83767B;
+	color:white;
+	width:100%;
+}
+
+.dugme-post:hover{
+	background-color:#761634;
+	border-color:#761634;
+}
